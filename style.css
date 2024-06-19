@@ -1,0 +1,34 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Adjust background color as needed */
+}
+
+.flag {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+}
+
+/* Example animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.flag {
+    animation: pulse 2s infinite; /* Apply animation */
+}
+
+
+.hidden {
+    display: none;
+}
